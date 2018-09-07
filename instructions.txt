@@ -1,0 +1,42 @@
+BOILERPLATE.
+1  yarn add create-react-app (installs locally)
+2. yarn add create-react-app {%cd%\projname} 
+3. yarn start (loads server)
+
+
+STYLING.
+1. yarn add tachyons
+2. import "tachyons"
+
+LOGO STYLE
+1. yarn add react-tilt
+2. import Tilt from "react-tilt"
+3. https://www.npmjs.com/package/react-tilt
+
+<Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
+ <div className="Tilt-inner"> ?? </div>
+</Tilt>
+
+PARTICLES BACKGROUND
+https://www.npmjs.com/package/react-particles-js
+
+1. yarn add react-particles-js
+2. import Particles from "react-particles-js"
+
+
+
+
+NODE
+1. already installed globally (msi install)
+2. yarn init (create package.json)
+3. yarn add nodemon (similiar to live server.. watches script for changes)
+4. add Script for "start": "nodemon (filename)"
+5. yarn add express
+6. download postman(msi install) //test server responds and receives data
+7. yarn add body-parser //converts client response to JS objects
+8. yarn add bcrypt
+9. yarn add cors
+
+SERVER (potgres)
+1. yarn add knex (connects backend to database)
+2. yarn add pg (postgres)
