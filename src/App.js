@@ -7,6 +7,7 @@ import Particles from "react-particles-js";
 import FaceRec from "./components/FaceRec/FaceRec";
 import SignIn from "./components/SignIn/SignIn";
 import Register from "./components/Register/Register";
+import NavBar from "./components/Navbar/Navbar";
 import "tachyons";
 import "./App.css";
 
@@ -144,6 +145,7 @@ class App extends Component {
     return (
       <div className="App">
         <Particles className="particles" params={ParticlesOptions} />
+        <NavBar />
         <Navigation
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
