@@ -26,6 +26,7 @@ const initialState = {
   }
 };
 
+//Particles settings
 const ParticlesOptions = {
   particles: {
     number: {
