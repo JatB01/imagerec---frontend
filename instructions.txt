@@ -40,3 +40,8 @@ NODE
 SERVER (potgres)
 1. yarn add knex (connects backend to database)
 2. yarn add pg (postgres)
+
+Heroku push
+git add .
+git commit -m
+git push heroku master
